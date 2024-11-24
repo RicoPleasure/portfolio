@@ -69,3 +69,12 @@ body {
   color: #000000;
 }
 
+@media (max-width: 600px) {
+  .card::after, .card::before {
+    display: none;
+  }
+
+  .card {
+    border: 2px solid white;
+  }
+}
