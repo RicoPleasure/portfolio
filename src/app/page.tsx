@@ -184,7 +184,7 @@ export default function Home() {
             <div className="w-full flex flex-col">
               <div className="flex flex-col place-items-center px-10 text-center sm:px-24 pb-6 pt-4">
                 <span className="text-4xl">These are my social media</span>
-                <p>Contact me, let's learn together!</p>
+                <p>Contact me, let&#39;s learn together!</p>
               </div>
               <div className="w-full flex justify-evenly px-10 xl:px-56 py-5 border-t rounded-b-2xl">
                 {socialLinks.map((info, index) => (
@@ -220,7 +220,7 @@ export default function Home() {
 
           <Card color="bg-[#000000]" >
             <div className="w-full px-10 text-center sm:px-24 flex justify-center pb-2">
-              <h1 className="text-lg">"There is no great genius without some touch of madness"</h1>                    
+              <h1 className="text-lg">&#34;There is no great genius without some touch of madness&#34;</h1>                    
             </div>
           </Card>
         </main>
